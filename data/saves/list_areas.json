@@ -1,0 +1,14 @@
+{
+  "list_areas": [
+    "area0.json",
+    "area1.json",
+    "area2.json",
+    "area3.json",
+    "area1_test.json",
+    "area2_test.json",
+    "area4.json",
+    "skellytest.json",
+    "lighttest.json",
+    "spelltest.json"
+  ]
+}

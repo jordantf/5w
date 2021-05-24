@@ -1,0 +1,70 @@
+{
+  "area": 1,
+  "terrain": [
+    [ 1, 1, 1, 1, 1, 1, 1],
+    [ 1, 0, 0, 0, 0, 3, 1],
+    [ 1, 0, 0, 0, 0, 0, 1],
+    [ 1, 0, 0, 0, 0, 0, 1],
+    [ 1, 0, 0, 0, 0, 0, 1],
+    [ 1, 0, 0, 0, 0, 0, 1],
+    [ 1, 1, 1, 1, 1, 1, 1]
+  ],
+  "tileset": [
+    [12, 6, 6, 6, 6, 6, 12],
+    [12, 0, 0, 0, 0,35, 12],
+    [12, 0, 0, 0, 0, 0, 12],
+    [12, 0, 0, 0, 0, 0, 12],
+    [12, 0, 0, 0, 0, 0, 12],
+    [12, 0, 0, 0, 0, 0, 12],
+    [12,12,12,12,12,12,12]
+  ],
+  "torches": [
+    {
+      "position": [1, 3],
+      "lit": true
+    }
+  ],
+  "player": {
+    "position": [ 3, 2 ],
+    "HP": [150,150],
+    "weapon": "rusty shortsword"
+  },
+  "artifact": {
+    "position": [ 3, 13 ]
+  },
+  "turns": {
+    "moves": 5,
+    "attacks": 10
+  },
+  "spell_powers": [
+    {
+      "spell_pos": [1,1],
+      "texture_path": "spells/switch_tome.png",
+      "name": "swap spell power",
+      "spell_type": 5
+    },
+    {
+      "spell_pos": [2,1],
+      "texture_path": "spells/hook_tome.png",
+      "name": "hook spell power",
+      "spell_type": 2
+    },
+    {
+      "spell_pos": [3,1],
+      "texture_path": "spells/push_tome.png",
+      "name": "push spell power",
+      "spell_type": 3
+    }
+  ],
+  "artifact": {
+    "position": [
+      15,6
+    ]
+  },
+  "power": {
+    "position": [8, 18],
+    "point": 25,
+    "texture_path": "power_electric.png",
+    "name": "electric longsword"
+  }
+}
